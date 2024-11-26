@@ -16,28 +16,28 @@ async function seed() {
             nombre: 'TechCorp',
             direccion: '1234 Elm Street',
             numeroContacto: '123-456-7890',
-            pathImgPerfil: 'images/fabricantes/techcorp.jpg'
+            pathImgPerfil: 'images/fabricantes/techcorp-edit.png'
         })
 
         const fabricante2 = await Fabricante.create({
             nombre: 'Innovatech',
             direccion: '5678 Oak Avenue',
             numeroContacto: '098-765-4321',
-            pathImgPerfil: 'images/fabricantes/innovatech.jpg'
+            pathImgPerfil: 'images/fabricantes/innovatech-edit.png'
         })
 
         const fabricante3 = await Fabricante.create({
             nombre: 'FutureWorks',
             direccion: '9012 Maple Drive',
             numeroContacto: '321-654-9870',
-            pathImgPerfil: 'images/fabricantes/futureworks.jpg'
+            pathImgPerfil: 'images/fabricantes/futureworks-edit.png'
         })
 
         const fabricante4 = await Fabricante.create({
             nombre: 'MegaSolutions',
             direccion: '3456 Pine Lane',
             numeroContacto: '111-222-3333',
-            pathImgPerfil: 'images/fabricantes/megasolutions.jpg'
+            pathImgPerfil: 'images/fabricantes/megasolutions-edit.png'
         })
 
         // Crear componentes
@@ -71,70 +71,70 @@ async function seed() {
             nombre: 'Termostato Inteligente',
             descripcion: 'Termostato que se conecta a Wi-Fi y ajusta la temperatura automáticamente.',
             precio: 150.0,
-            pathImg: 'images/productos/termostato.jpg'
+            pathImg: 'images/productos/termostato-edit.png'
         })
 
         const producto2 = await Producto.create({
             nombre: 'Smartwatch',
             descripcion: 'Reloj inteligente con monitoreo de actividad física.',
             precio: 200.0,
-            pathImg: 'images/productos/smartwatch.jpg'
+            pathImg: 'images/productos/smartwatch-edit.png'
         })
 
         const producto3 = await Producto.create({
             nombre: 'Sensor Ambiental',
             descripcion: 'Sensor que mide la humedad y calidad del aire.',
             precio: 80.0,
-            pathImg: 'images/productos/sensor-ambiental.jpg'
+            pathImg: 'images/productos/sensor-ambiental-edit.png'
         })
 
         const producto4 = await Producto.create({
             nombre: 'Controlador de Riego',
             descripcion: 'Controlador automático de sistemas de riego.',
             precio: 120.0,
-            pathImg: 'images/productos/controlador-riego.jpg'
+            pathImg: 'images/productos/controlador-riego-edit.png'
         })
 
         const producto5 = await Producto.create({
             nombre: 'Cámara de Seguridad',
             descripcion: 'Cámara de vigilancia de alta resolución con visión nocturna.',
             precio: 250.0,
-            pathImg: 'images/productos/camara-seguridad.jpg'
+            pathImg: 'images/productos/camara-seguridad-edit.png'
         })
 
         const producto6 = await Producto.create({
             nombre: 'Control de Acceso',
             descripcion: 'Sistema de control de acceso biométrico.',
             precio: 300.0,
-            pathImg: 'images/productos/control-acceso.jpg'
+            pathImg: 'images/productos/control-acceso-edit.png'
         })
 
         const producto7 = await Producto.create({
             nombre: 'Altavoz Inteligente',
             descripcion: 'Altavoz con asistente virtual integrado.',
             precio: 100.0,
-            pathImg: 'images/productos/altavoz-inteligente.jpg'
+            pathImg: 'images/productos/altavoz-inteligente-edit.png'
         })
 
         const producto8 = await Producto.create({
             nombre: 'Cámara de Acción',
             descripcion: 'Cámara portátil resistente al agua y polvo.',
             precio: 180.0,
-            pathImg: 'images/productos/camara-accion.jpg'
+            pathImg: 'images/productos/camara-accion-edit.png'
         })
 
         const producto9 = await Producto.create({
             nombre: 'Controlador de Iluminación',
             descripcion: 'Dispositivo para el control remoto de iluminación LED.',
             precio: 110.0,
-            pathImg: 'images/productos/controlador-iluminacion.jpg'
+            pathImg: 'images/productos/controlador-iluminacion-edit.png'
         })
 
         const producto10 = await Producto.create({
             nombre: 'Cargador Inalámbrico',
             descripcion: 'Cargador para dispositivos compatibles con carga inalámbrica.',
             precio: 50.0,
-            pathImg: 'images/productos/cargador-inalambrico.jpg'
+            pathImg: 'images/productos/cargador-inalambrico-edit.png'
         })
 
         // Asociar fabricantes a productos
